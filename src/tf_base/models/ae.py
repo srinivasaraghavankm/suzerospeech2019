@@ -16,7 +16,9 @@ from __future__ import print_function
 import tensorflow as tf
 
 
-from constants import TF_FLOAT_DTYPE
+#from constants import TF_FLOAT_DTYPE
+from flags import FLAGS
+TF_FLOAT_DTYPE = FLAGS.tf_float_dtype
 
 
 # ------------------------------------------------------------------------------ # -----80~100---- #
